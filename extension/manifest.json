@@ -1,0 +1,17 @@
+{
+  "name": "Center image",
+  "version": "0.1.0",
+  "permissions": [
+    "*://*/*"
+  ],
+  "icons": { "64": "icons/64.png"},
+  "content_scripts": [
+    {
+      "matches": ["*://*/*.jpg","*://*/*.jpeg","*://*/*.png","*://*/*.webp","*://*/*.gif",
+        "*://*/*.JPG","*://*/*.JPEG","*://*/*.PNG","*://*/*.WEBP","*://*/*.GIF"],
+      "css": ["main.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
