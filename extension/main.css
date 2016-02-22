@@ -1,8 +1,8 @@
-.extension-center-activated img {
-    margin: auto;
-}
-
 body.extension-center-activated {
   background: #222;
   display: flex;
+}
+
+.extension-center-activated img {
+    margin: auto;
 }

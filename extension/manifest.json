@@ -12,6 +12,11 @@
       "css": ["main.css"],
       "js" : ["main.js"],
       "run_at": "document_end"
+    },
+    {
+      "matches": ["*://i.imgur.com/*.gifv","*://i.imgur.com/*.GIFV"],
+      "css": ["gifv.css"],
+      "run_at": "document_start"
     }
   ],
   "manifest_version": 2
