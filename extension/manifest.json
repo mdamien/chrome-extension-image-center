@@ -7,8 +7,12 @@
   "icons": { "64": "icons/64.png"},
   "content_scripts": [
     {
-      "matches": ["*://*/*.jpg","*://*/*.jpeg","*://*/*.png","*://*/*.webp","*://*/*.gif",
-        "*://*/*.JPG","*://*/*.JPEG","*://*/*.PNG","*://*/*.WEBP","*://*/*.GIF"],
+      "matches": [
+        "file://*.jpg","file://*.jpeg","file://*.png","file://*.webp","file://*.gif",
+        "file://*.JPG","file://*.JPEG","file://*.PNG","file://*.WEBP","file://*.GIF",
+        "*://*/*.jpg","*://*/*.jpeg","*://*/*.png","*://*/*.webp","*://*/*.gif",
+        "*://*/*.JPG","*://*/*.JPEG","*://*/*.PNG","*://*/*.WEBP","*://*/*.GIF"
+      ],
       "css": ["main.css"],
       "js" : ["main.js"],
       "run_at": "document_end"
