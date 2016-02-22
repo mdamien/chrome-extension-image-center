@@ -1,6 +1,6 @@
 {
   "name": "Center image",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "permissions": [
     "<all_urls>"
   ],
