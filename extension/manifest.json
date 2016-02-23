@@ -1,21 +1,22 @@
 {
   "name": "Center image",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "permissions": [
-    "<all_urls>"
+    "<all_urls>",
+    "webRequest"
   ],
+  "background": {
+    "scripts": ["background.js"]
+  },
   "icons": { "64": "icons/64.png"},
   "content_scripts": [
     {
       "matches": [
         "file://*.jpg","file://*.jpeg","file://*.png","file://*.webp","file://*.gif",
-        "file://*.JPG","file://*.JPEG","file://*.PNG","file://*.WEBP","file://*.GIF",
-        "*://*/*.jpg","*://*/*.jpeg","*://*/*.png","*://*/*.webp","*://*/*.gif",
-        "*://*/*.JPG","*://*/*.JPEG","*://*/*.PNG","*://*/*.WEBP","*://*/*.GIF"
+        "file://*.JPG","file://*.JPEG","file://*.PNG","file://*.WEBP","file://*.GIF"
       ],
       "css": ["main.css"],
-      "js" : ["main.js"],
-      "run_at": "document_end"
+      "run_at": "document_start"
     },
     {
       "matches": ["*://i.imgur.com/*.gifv","*://i.imgur.com/*.GIFV"],
