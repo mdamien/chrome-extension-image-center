@@ -1,11 +1,13 @@
 {
   "name": "View images centered like in Firefox",
-  "version": "0.2.0",
+  "description": "Center image and add black background exactly like Firefox does. Minimalist extension that only use a CSS fix.",
+  "version": "0.3.0",
   "permissions": [
     "<all_urls>"
   ],
   "icons": {
-    "64": "icons/64.png"
+    "16": "icons/16.png",
+    "128": "icons/128.png"
   },
   "content_scripts": [
     {
