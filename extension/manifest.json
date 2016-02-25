@@ -1,17 +1,17 @@
 {
-  "name": "Center image",
+  "name": "View images centered like in Firefox",
   "version": "0.2.0",
   "permissions": [
-    "<all_urls>",
-    "webRequest"
+    "<all_urls>"
   ],
-  "background": {
-    "scripts": ["background.js"]
+  "icons": {
+    "64": "icons/64.png"
   },
-  "icons": { "64": "icons/64.png"},
   "content_scripts": [
     {
       "matches": [
+        "*://*/*.jpg","*://*/*.jpeg","*://*/*.png","*://*/*.webp","*://*/*.gif",
+        "*://*/*.JPG","*://*/*.JPEG","*://*/*.PNG","*://*/*.WEBP","*://*/*.GIF",
         "file://*.jpg","file://*.jpeg","file://*.png","file://*.webp","file://*.gif",
         "file://*.JPG","file://*.JPEG","file://*.PNG","file://*.WEBP","file://*.GIF"
       ],

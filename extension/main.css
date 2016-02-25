@@ -1,8 +1,7 @@
-body {
-  background: #222;
-  display: flex;
+body[style="margin: 0px;"] {
+    background-color: #222;
+    display: flex;
 }
-
-img {
-    margin: auto;
+body[style="margin: 0px;"] > img {
+    margin: auto
 }
