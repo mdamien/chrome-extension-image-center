@@ -1,7 +1,9 @@
 body[style="margin: 0px;"] {
     background-color: #222;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAgAElE…/Swu04+rf+aEKuHju3u3HbxPQaaBXfON3RGxw/CS2Tvn+PygsMJBf6+YwAAAAAElFTkSuQmCC");
     display: flex;
 }
+
 body[style="margin: 0px;"] > img {
     margin: auto
 }
