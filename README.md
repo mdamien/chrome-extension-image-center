@@ -14,4 +14,4 @@ My orginal use-case: making memes and casting them to TVs.
 
 Other similar extensions:
 
-- (Image in the center)[https://chrome.google.com/webstore/detail/image-in-the-center/kcpejamelebpigblebnbabhndaaffjok?hl=en] - allow to choose the background
+- [Image in the center](https://chrome.google.com/webstore/detail/image-in-the-center/kcpejamelebpigblebnbabhndaaffjok?hl=en) - allow to choose the background
