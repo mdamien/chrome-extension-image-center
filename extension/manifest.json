@@ -1,7 +1,7 @@
 {
   "name": "View images centered like in Firefox",
   "description": "Center image and add black background like Firefox does",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "permissions": [
     "<all_urls>"
   ],
@@ -9,6 +9,7 @@
     "16": "icons/16.png",
     "128": "icons/128.png"
   },
+  "offline_enabled": true,
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
