@@ -1,7 +1,7 @@
 {
   "name": "View images centered like in Firefox",
   "description": "Center image and add black background like Firefox does",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "permissions": [
     "<all_urls>"
   ],
@@ -19,11 +19,6 @@
     {
       "matches": ["*://i.imgur.com/*.gifv","*://i.imgur.com/*.GIFV"],
       "css": ["gifv.css"],
-      "run_at": "document_start"
-    },
-    {
-      "matches": ["*://*/*.webm"],
-      "css": ["webm.css"],
       "run_at": "document_start"
     }
   ],
