@@ -2,7 +2,7 @@
   "name": "__MSG_appName__",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "permissions": [
     "<all_urls>"
   ],
