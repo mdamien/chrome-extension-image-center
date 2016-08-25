@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Center images",
+    "description": "title"
+  },
+  "appDesc": {
+    "message": "Center images and add black background (like Firefox)", 
+    "description":"description"
+  }
+}

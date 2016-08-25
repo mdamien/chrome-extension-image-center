@@ -1,6 +1,7 @@
 {
-  "name": "View images centered like in Firefox",
-  "description": "Center image and add black background like Firefox does",
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
   "version": "0.6.2",
   "permissions": [
     "<all_urls>"
