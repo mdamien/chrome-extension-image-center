@@ -4,7 +4,7 @@
     "description": "title"
   },
   "appDesc": {
-    "message": "Center images and add black background (like Firefox)", 
+    "message": "Center images over a dark background (like Firefox)", 
     "description":"description"
   }
 }
